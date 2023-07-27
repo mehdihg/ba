@@ -25,23 +25,16 @@ export default function MainSlider() {
   const settings = {
     dots: false,
     infinite: true,
-    fade: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
     autoplay: true,
-    speed: 2500,
-    autoplaySpeed: 2500,
+    speed: 2000,
+    autoplaySpeed:4000
+  
 
   };
 
-      const container = {
-        hidden: { y: 20, opacity: 0 },
-        show: {
-          y: 0,
-          opacity: 1,
-          transition: {
-            ease: [0.17, 0.40, 0.67, 0.83],
-          },
-        },
-      };
+
 
 
 
@@ -54,10 +47,8 @@ export default function MainSlider() {
         <div className="home-carousel-cell">
                 <Image src={firstSlide} fill={true} />
 
-                <motion.div className="home-carousel-content"
-                variants={container}
-                initial="hidden"
-                animate={"show"}
+                <div className="home-carousel-content"
+                
                 >
                   <p>01</p>
                   <h3>Model</h3>
@@ -66,15 +57,13 @@ export default function MainSlider() {
                       CheshmBand
                     </a>
                   </h2>
-                </motion.div>
+                </div>
               </div>
               <div className="home-carousel-cell">
                 <Image src={secondSlide} fill={true} />
 
-                <motion.div className="home-carousel-content"
-                variants={container}
-                initial="hidden"
-                animate={"show"}
+                <div className="home-carousel-content"
+
                 >
                   <p>01</p>
                   <h3>Model</h3>
@@ -83,15 +72,13 @@ export default function MainSlider() {
                       CheshmBand
                     </a>
                   </h2>
-                </motion.div>
+                </div>
               </div>
               <div className="home-carousel-cell">
                 <Image src={thirdSlide} fill={true} />
                 
-                <motion.div className="home-carousel-content"
-                variants={container}
-                initial="hidden"
-                animate={"show"}
+                <div className="home-carousel-content"
+   
                 >
                   <p>01</p>
                   <h3>Model</h3>
@@ -100,7 +87,7 @@ export default function MainSlider() {
                       CheshmBand
                     </a>
                   </h2>
-                </motion.div>
+                </div>
               </div>
 
         </Slider>
