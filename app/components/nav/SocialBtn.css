@@ -1,0 +1,43 @@
+.social-media {
+    position: absolute;
+    bottom: 25px;
+    left: 50px;
+    z-index: 9;
+    cursor: pointer;
+  }
+  .social-media-btn {
+    width: 55px;
+    height: 50px;
+    z-index: 100;
+  }
+  .social-media-btn .social-media-btn-one {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+  }
+  .social-media-btn .social-media-btn-two {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 2px;
+    transform: rotate(90deg);
+    background-color: #fff;
+    /* transition: 150ms; */
+  }
+  .social-media-data {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    z-index: 222;
+  }
+  .social-media-data-icon {
+    display: block;
+    /* margin: 0px 0 -20px 0; */
+    padding: 10px 0;
+    color: #fff;
+  }
+

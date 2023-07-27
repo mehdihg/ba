@@ -1,0 +1,192 @@
+.navbar-btn {
+    position: absolute;
+    top: 30px;
+    right: 35px;
+  }
+  /* menu--------------------------------------------------------------------------------------------------------------------- */
+  .menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 55px;
+    height: 50px;
+    z-index: 1;
+    cursor: pointer;
+    z-index: 100;
+  }
+  .menu-btn .menu-btn-one {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 34px;
+    height: 2px;
+    background-color: #fff;
+  }
+  .menu-btn .menu-btn-two {
+    position: absolute;
+    top: 34px;
+    right: 20px;
+    width: 34px;
+    height: 2px;
+    background-color: #fff;
+  }
+  /*cart*/
+  .cart-btn {
+    position: absolute;
+    top: 0;
+    right: 90px;
+  
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+    cursor: pointer;
+    z-index: 100;
+  }
+  .cart-btn .cart-btn-one {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    width: 34px;
+    height: 16px;
+    border: 2px solid #fff;
+    /* background-color: #fff; */
+  }
+  .cart-btn .cart-btn-two {
+    position: absolute;
+    top: 14px;
+    right: 8px;
+    width: 18px;
+    height: 13px;
+    border: 2px solid #fff;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    border-bottom: 0px solid #f00;
+    border-left: 2px solid #fff;
+  }
+
+  .cart-btn-badges {
+    position: absolute;
+    right: -8px;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+  }
+  .cart-btn-badges-counter {
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    margin: 0;
+  }
+  /*menu*/
+  .menu-overly {
+    width: 100%;
+    height: 100vh;
+    background-color: #101010;
+    position: absolute;
+    top: -100%;
+    z-index: 99;
+    overflow: hidden !important;
+  }
+  .menu-data {
+    width: 100%;
+    display: flex;
+  }
+  .menu-col-data, .menu-col-address{
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+  }
+  .menu-col-data{
+    width: 66.66666667%;
+  }
+  .menu-content-data {
+    line-height: 1.2;
+    list-style-type: none;
+    /* counter-reset: compteListe; */
+    font: 200 normal 52px "Poppins";
+  
+    position: relative;
+    left:30%;
+    right:30%;
+    top: calc(50vh - 10px);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .menu-content-data li:first-child {
+
+    font-size: 20px;
+    color: #fff ;
+    opacity:0.5;
+  }
+  .menu-content-data li:not(:first-child) {
+    color: #fff ;
+  
+    font-size: 45px;
+  }
+  a.aaa {
+    transition:all 0.5s ease;
+  }
+  ul:hover li a.aaa:not(:hover){
+    opacity:0.5;
+  }
+  .menu-col-address{
+    width: 33.33333333%;
+  }
+  .menu-content-address {
+    list-style-type: none;
+  
+    position: relative;
+    left:0;
+    right:0;
+    top: calc(50vh - 10px);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .menu-content-address li:first-child {
+
+    /* font-size: 20px; */
+    color: #fff;
+    opacity:1;
+  }
+  .menu-content-address li:not(:first-child) {
+
+    color: #fff;
+    opacity:0.5;
+    /* font-size: 45px; */
+    /* padding: 5px 0 0 0; */
+  }
+  .menu-social-media-data-icon{
+    font-size: 16px !important;
+    padding:10px 13px 0 0;
+  }
+  .menu-social-media-data-icon svg{
+    
+    color: #fff;
+  }
+  .menu-language{
+    font-size: 14px !important;
+    padding:15px 15px 0 0;
+  }
+  .aaa{
+    color: #fff;
+    text-decoration: none;
+  }
+  .aaaa{
+    color: #fff;
+    text-decoration: none;
+  }
+ 
