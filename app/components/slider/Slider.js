@@ -37,13 +37,37 @@ export default function MainSlider() {
 
 
 
-
+  const flickityOptions = {
+    imagesLoaded: true,
+    percentPosition: false,
+    cellAlign: "center",
+    contain: true,
+    wrapAround: true,
+    accessibility: true,
+    pageDots: false,
+    prevNextButtons: false,
+    autoPlay: 4500,
+    pauseAutoPlayOnHover: false,
+    arrowShape: {
+      x0: 10,
+      x1: 60,
+      y1: 50,
+      x2: 60,
+      y2: 45,
+      x3: 15,
+    },
+  };
 
       
   return (
     <div className="main">
 
-        <Slider {...settings} className="home-carousel-main" >
+        <Flickity className="home-carousel-main"
+              
+              elementType={'div'} // default 'div'
+              options={flickityOptions} // takes flickity options {}
+              disableImagesLoaded={false}
+        >
         <div className="home-carousel-cell">
                 <Image src={firstSlide} fill={true} />
 
@@ -69,7 +93,7 @@ export default function MainSlider() {
                   <h3>Model</h3>
                   <h2>
                     <a href="#Glasses" className={popins.className}>
-                      CheshmBand
+                      Mochband
                     </a>
                   </h2>
                 </div>
@@ -84,13 +108,13 @@ export default function MainSlider() {
                   <h3>Model</h3>
                   <h2>
                     <a href="#Glasses" className={popins.className}>
-                      CheshmBand
+                      Polband
                     </a>
                   </h2>
                 </div>
               </div>
 
-        </Slider>
+        </Flickity>
   
 
 

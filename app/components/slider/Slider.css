@@ -194,8 +194,8 @@
     
   }
   
-.slick-current .home-carousel-content  {
-animation-delay: 2s;
+.is-selected .home-carousel-content  {
+animation-delay: 1s;
   animation-name: example;
   animation-duration: 1s;
   animation-fill-mode: forwards;
