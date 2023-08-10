@@ -6,11 +6,10 @@ import { Poppins } from "next/font/google";
 import firstSlide from "../../(user)/assets/images/2.jpg";
 import secondSlide from "../../(user)/assets/images/11.jpg";
 import thirdSlide from "../../(user)/assets/images/16.jpg";
-import { motion,useAnimation } from "framer-motion";
 import "./Slider.css";
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import ProductBtn from "./ProductBtn";
 const popins = Poppins({
   subsets: ["latin"],
   weight: ["400", "700", "900"],
@@ -22,17 +21,7 @@ export default function MainSlider() {
 
 
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    speed: 2000,
-    autoplaySpeed:4000
-  
 
-  };
 
 
 
@@ -46,7 +35,7 @@ export default function MainSlider() {
     accessibility: true,
     pageDots: false,
     prevNextButtons: false,
-    autoPlay: 4500,
+    autoPlay: 6000,
     pauseAutoPlayOnHover: false,
     arrowShape: {
       x0: 10,
@@ -56,6 +45,9 @@ export default function MainSlider() {
       y2: 45,
       x3: 15,
     },
+    fade:true,
+    selectedAttraction: 0.01,
+friction: 0.2
   };
 
       
@@ -113,7 +105,7 @@ export default function MainSlider() {
                   </h2>
                 </div>
               </div>
-
+             
         </Flickity>
   
 
@@ -143,6 +135,7 @@ export default function MainSlider() {
           <div className="home-carousel-button-right-icon"></div>
         </div>
       </div>
+      <ProductBtn/>
     </div>
   );
 }

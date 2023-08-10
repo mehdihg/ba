@@ -1,0 +1,71 @@
+.product {
+    /* margin: 0px 20px; */
+    position: absolute;
+    bottom: 40px;
+    right:55px;
+    cursor: pointer;
+    -webkit-flex: none;
+    flex: none;
+    overflow: hidden !important;
+    margin: 0 0 0 20px;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background: none;
+    /* width: 40px;
+    height: 40px; */
+    /* border: 1px solid #fed208;
+    border-radius: 50%; */
+ 
+  }
+  .product-pluse {
+    /* margin: 0px 20px; */
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  .product-one {
+    /* display: inline-block; */
+    border: 2px solid #fff;
+    width: 15px;
+    height: 15px;
+    /* transform: rotate(-225deg) !important; */
+    position: absolute;
+    /* bottom: 19px; */
+    bottom: 13px;
+    right: 0px;
+  }
+  .product-two {
+    /* display: inline-block; */
+    border: 2px solid #fff;
+    width: 15px;
+    /* height: 34px; */
+    height: 15px;
+    /* transform: rotate(-45deg) !important; */
+    position: absolute;
+    bottom: 0px;
+    right: 19px;
+    /* margin: 0 20px; */
+  }
+  .product-three {
+    /* display: inline-block; */
+    border: 2px solid #fff;
+    width: 15px;
+    height: 15px;
+    /* transform: rotate(-225deg) !important; */
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+  .product-four {
+    /* display: inline-block; */
+    border: 2px solid #fff;
+    width: 15px;
+    height: 15px;
+    /* transform: rotate(-225deg) !important; */
+    position: absolute;
+    bottom: 13px;
+    right: 19px;
+  }

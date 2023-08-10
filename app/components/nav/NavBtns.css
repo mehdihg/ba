@@ -140,6 +140,11 @@
   ul:hover li a.aaa:not(:hover){
     opacity:0.5;
   }
+
+  .aaa{
+    color: #fff;
+    text-decoration: none;
+  }
   .menu-col-address{
     width: 33.33333333%;
   }
@@ -181,11 +186,7 @@
     font-size: 14px !important;
     padding:15px 15px 0 0;
   }
-  .aaa{
-    color: #fff;
-    text-decoration: none;
-  }
-  .aaaa{
+  .email{
     color: #fff;
     text-decoration: none;
   }
